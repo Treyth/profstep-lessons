@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Concert One', cursive;
+}
+
+body {
+    background-color: rebeccapurple;
+}
+
+.navigation-link {
+    display: inline-block;
+    height: 100%;
+    line-height: 50px;
+    width: 100%;
+    color: yellow;
+    text-decoration: none;
+}
+
+
+.navigation-menu {
+    list-style-type: none;
+    min-height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.navigation-button {
+    background-color: hsl(140, 36%, 45%);
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s ease;
+    opacity: .8;
+    box-sizing: content-box;
+}
+
+.header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.hedear {
+    height: 100vh;
+    position: relative;
+}
+
+.header-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 150px;
+    color: springgreen;
+    text-align: center;
+    width: 100%;
+    font-family: 'Shalimar', cursive;
+}
+
+.main-title {
+    color: rgb(73, 155, 100);
+    text-align: center;
+    font-size: 70px;
+}
+
+.contry {
+    width: 320px;
+}
+
+.group-description {
+    width: 100%;
+
+}
+
+.group-image {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.group-image-content {
+    width: 100%;
+    
+}
+
+.group-desction-wrapper {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.group-item {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    min-height: 400px;
+    padding: 50xp 10px;
+    color: yellow;
+}
+
+.group-item-text {
+    color: orange;
+    vertical-align: middle;
+}
+
+.group-item-title {
+    padding-top: 90px 
+}
+
+.group-item-text {
+    padding-top: 65px;
+}
+
+.group-item-year {
+    color: lawngreen;
+}
