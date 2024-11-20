@@ -1,3 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
 td {
     width: 33.333%;
+}
+
+.navigation-button {
+    background-color: forestgreen;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navigation-link {
+    color: yellow;
+    text-decoration: none;
+    vertical-align: middle;
+    font-family: "Concert One";
+}
+
+.main-video {
+    width: 100%;
+}
+
+.main-title {
+    text-align: center;
+    color: forestgreen;
+}
+
+.main-column-2-3 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 66%;
+    text-align: center;
+}
+
+.main-column-1 {
+    width:  33%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.main-column-1 {
+    color: aqua;
+    font-size: 18px;
+}
+
+.text-green {
+    color: lawngreen
+}
+
+.main-column-2-3 {
+
+}
+
+body {
+    background-color: rgb(91, 15, 168);
 }

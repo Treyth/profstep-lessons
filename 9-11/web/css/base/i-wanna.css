@@ -1,3 +1,61 @@
 td {
     width: 33.333%;
 }
+
+* {
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-link {
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    color: yellow;
+    font-family: 'Concert One';
+}
+
+.navigation-button {
+    display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: forestgreen;   
+}
+
+.main-video {
+    width: 100%;
+}
+
+.main-title {
+    text-align: center;
+    color: forestgreen;
+}
+
+.main-column-2-3 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 66%;
+    text-align: center;
+}
+
+.main-column-1 {
+    width:  33%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.main-column-1 {
+    color: aqua;
+    font-size: 18px;
+}
+
+.text-green {
+    color: lawngreen
+}
+
+.main-column-2-3 {
+    color
+}
